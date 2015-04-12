@@ -1,0 +1,22 @@
+{
+  "name": "gabemiller/composer-install",
+  "description": "This package is a composer plugin.",
+  "type": "composer-plugin",
+  "extra": {
+    "class": "GabeMiller\\Install\\InstallerPlugin"
+  },
+  "require": {
+    "composer-plugin-api": "1.0.0"
+  },
+  "authors": [
+    {
+      "name": "Gabor Molnar",
+      "email": "gabormolnar92@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "GabeMiller\\Install": "src/"
+    }
+  }
+}
